@@ -45,6 +45,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'glossary-of-terms',
             'landing-page',
             'registration',
             'login',
