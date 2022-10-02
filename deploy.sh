@@ -14,8 +14,8 @@ cd src/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'deploy'
-git push -f https://github.com/ubpon/dost-sei-tracer-docs.git master:docs
+git commit -m 'new deploy'
+git push --force git@github.com:ubpon/dost-sei-tracer-docs.git master:docs
 #git push --set-upstream https://github.com/ubpon/dost-sei-tracer-docs.git master
 
 cd -
